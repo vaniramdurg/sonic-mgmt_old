@@ -17,11 +17,11 @@ This test doesn't required any configurations from outside. But intenally it wil
 
 ## Test
 Configure testbed to emulate production.
-Configure IXIA/Spirent with a 4-byte ASN and peer with DUT.
+Configure PTF with a 4-byte ASN and peer with DUT.
 Establish sessions across IPv4 and IPv6 using asplain on the DUT.
-Advertise routes from the IXIA/Spirent to DUT.
+Advertise routes from the PTF to DUT.
 Ensure prefixes are propagated within Customer VRF 
-and that the IXIA/Spirent 4-byte ASN displays properly within the AS_PATH on the DUT.
+and that the PTF 4-byte ASN displays properly within the AS_PATH on the DUT.
 
 
 Expectation:
